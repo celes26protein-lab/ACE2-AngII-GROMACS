@@ -1,10 +1,6 @@
 ;
 ;	Created by:
 ;	                    :-) GROMACS - gmx pdb2gmx, 2019.6 (-:
-;	
-;	Executable:   /Users/t.yukako/miniconda3/bin.AVX2_256/gmx
-;	Data prefix:  /Users/t.yukako/miniconda3
-;	Working dir:  /Users/t.yukako/Desktop/Ang_2/MD
 ;	Command line:
 ;	  gmx pdb2gmx -f AngIcom_clean.pdb -o processed.gro -p topol.top -water tip3p -ignh
 ;	Force field was read from the standard GROMACS share directory.
