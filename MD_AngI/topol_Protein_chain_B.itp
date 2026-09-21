@@ -1,13 +1,5 @@
-;
-;	File 'topol_Protein_chain_B.itp' was generated
-;	By user: t.yukako (501)
-;	On host: TYukakonoMacBook-Air.local
-;	At date: Sun May 31 16:44:20 2026
-;
-;	This is a include topology file
-;
-;	Created by:
-;	                    :-) GROMACS - gmx pdb2gmx, 2019.6 (-:
+
+;	Command line:    :-) GROMACS - gmx pdb2gmx, 2019.6 (-:
 ;	
 ;	Executable:   /Users/t.yukako/miniconda3/bin.AVX2_256/gmx
 ;	Data prefix:  /Users/t.yukako/miniconda3
