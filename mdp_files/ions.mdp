@@ -1,0 +1,5 @@
+cat > ions.mdp << EOF
+integrator = steep
+emtol = 1000
+nsteps = 500
+EOF

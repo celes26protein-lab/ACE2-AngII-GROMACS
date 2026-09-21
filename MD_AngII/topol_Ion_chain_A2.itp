@@ -1,0 +1,35 @@
+;
+;	File 'topol_Ion_chain_A2.itp' was generated
+;	By user: t.yukako (501)
+;	On host: TYukakonoMacBook-Air.local
+;	At date: Tue Jun  2 10:14:54 2026
+;
+;	This is a include topology file
+;
+;	Created by:
+;	                    :-) GROMACS - gmx pdb2gmx, 2019.6 (-:
+;	
+;	Executable:   /Users/t.yukako/miniconda3/bin.AVX2_256/gmx
+;	Data prefix:  /Users/t.yukako/miniconda3
+;	Working dir:  /Users/t.yukako/Desktop/Ang_2/MD
+;	Command line:
+;	  gmx pdb2gmx -f AngIIcom_clean.pdb -o processed.gro -water tip3p -ignh
+;	Force field was read from the standard GROMACS share directory.
+;
+
+[ moleculetype ]
+; Name            nrexcl
+Ion_chain_A2        3
+
+[ atoms ]
+;   nr       type  resnr residue  atom   cgnr     charge       mass  typeB    chargeB      massB
+; residue 803 CL  rtp CL   q -1.0
+     1         Cl    803     CL     CL      1         -1      35.45   ; qtot -1
+; residue 804 ZN  rtp ZN   q +2.0
+     2         Zn    804     ZN     ZN      2          2       65.4   ; qtot 1
+
+; Include Position restraint file
+#ifdef POSRES
+#include "posre_Ion_chain_A2.itp"
+#endif
+
